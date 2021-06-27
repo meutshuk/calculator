@@ -1,0 +1,61 @@
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+}
+
+html {
+  background-color: plum;
+}
+
+button {
+  background-color: white;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 20px;
+}
+
+.font {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 20px;
+}
+
+.calculator {
+  width: 300px;
+  height: 500px;
+}
+
+.container {
+  display: flex;
+  /* align-content: center; */
+  justify-content: center;
+}
+
+.screen {
+  height: 80px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.mainScreen {
+  border: 1px solid;
+  background-color: gray;
+}
+
+.keys {
+  height: 50%;
+}
+
+.clear {
+  background-color: yellow;
+}
+
+.allClear {
+  background-color: red;
+}
+
+.equal {
+  background-color: green;
+}
